@@ -1,0 +1,18 @@
+{
+  "name": "webpack-build-as-needed",
+  "version": "1.0.0",
+  "description": "A demo repository for building only as needed with WebpackDevServer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Borton <gdborton@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0-alpha.4",
+    "glob": "^7.1.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
